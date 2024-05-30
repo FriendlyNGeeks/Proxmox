@@ -17,6 +17,7 @@ msg_info "Installing Dependencies"
 $STD apt-get update
 $STD apt-get -y install \
   sudo \
+  openssh-server \
   mc \
   curl \
   gnupg \
