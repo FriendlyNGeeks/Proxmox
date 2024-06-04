@@ -64,7 +64,7 @@ $STD apt-get install -y nodejs
 msg_ok "Installed Node.js"
 
 msg_info "Installing pnpm"
-$STD npm install -g pnpm@9.1 #8.15 OLD VER
+$STD npm install -g pnpm@8.15 #8.15 OLD VER 9.1 FAIL nodejs outdated
 msg_ok "Installed pnpm"
 
 RELEASE=$(curl -s https://api.github.com/repos/NginxProxyManager/nginx-proxy-manager/releases/latest |
